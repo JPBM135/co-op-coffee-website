@@ -6,24 +6,37 @@
     <title>F Coffee</title>
     <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+
+    <!-- JQuery Stuff -->
+    <link rel="stylesheet" href="./assets/styles/slick.css" />
+    <link rel="stylesheet" href="./assets/styles/slick-theme.css" />
+    <script src="./assets/scripts/jquery-3.7.1.min.js" defer></script>
+    <script src="./assets/scripts/slick.min.js" defer></script>
   </head>
   <body class="body">
-    <section class="body__background">
+    <section class="hero__background lasse2">
       <img
-        class="body__background__image"
-        src="./assets/landing_header.jpeg"
+        class="hero__background__image"
+        src="./assets/landing_header.webp"
         alt="Coffee beans in a cup"
       />
-      <div>
-        <h1 class="body__background__title">FRESH COFFEE IN THE MORNING</h1>
-        <p class="body__background__description">
+      <div class="hero__aside">
+        <h1 class="hero__aside__title">FRESH COFFEE IN THE MORNING</h1>
+        <p class="hero__aside__description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minima
           vitae doloremque minus voluptatibus! Placeat voluptatem aut quisquam
           vel quia ut doloremque ad. Placeat voluptatibus, maiores neque debitis
           voluptas adipisci.
         </p>
 
-        <button class="body__background__button">ORDER NOW</button>
+        <button class="hero__aside__button">ORDER NOW</button>
       </div>
     </section>
     <header class="header">
@@ -39,7 +52,100 @@
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="main__open-hours">
+        <h2 class="main__open-hours__title">Opening Hours</h2>
+        <div class="main__open-hours__container">
+          <div class="main__open-hours__time-date">
+            <p class="main__open-hours__time-date__time">Mon-Thu</p>
+            <span class="main__open-hours__time-date__date">
+              8:00 AM - 6:00 PM
+            </span>
+          </div>
+          <div class="main__open-hours__time-date">
+            <p class="main__open-hours__time-date__time">Sun</p>
+            <span class="main__open-hours__time-date__date">
+              9:00 AM - 9:00 PM
+            </span>
+          </div>
+          <div class="main__open-hours__time-date">
+            <p class="main__open-hours__time-date__time">Fri</p>
+            <span class="main__open-hours__time-date__date">
+              8:00 AM - 7:00 PM
+            </span>
+          </div>
+          <div class="main__open-hours__time-date">
+            <p class="main__open-hours__time-date__time">Sat</p>
+            <span class="main__open-hours__time-date__date">
+              9:00 AM - 6:00 PM
+            </span>
+          </div>
+        </div>
+      </section>
+      <section class="main__menu">
+        <h2 class="main__menu__title">Our Menu</h2>
+        <div id="landing-menu-carrousel" class="main__menu__carousel">
+          <div>Lorem ipsum dolor sit amet.</div>
+          <div>At id voluptatem ipsam ullam.</div>
+          <div>Debitis doloremque sint error dicta.</div>
+          <div>Magni itaque inventore maiores deleniti.</div>
+          <div>Nemo, quisquam iste? Tempore, optio.</div>
+          <div>Ut, pariatur tempora? Accusamus, cumque.</div>
+          <div>Iste natus quaerat cupiditate atque.</div>
+          <div>Commodi doloremque magnam eaque aperiam.</div>
+          <div>Debitis magni commodi sed ducimus!</div>
+          <div>Nulla soluta corrupti sapiente itaque.</div>
+        </div>
+      </section>
+      <section class="main__maps">
+        <div class="main__maps__iframe">
+          <iframe
+            width="100%"
+            height="310"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCcyg-L-7OVFJcQIvDYV0gUK-oZ-QgFP2E&q=Tamwood%20Language%20Centres%20-%20Vancouver"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="utils__invert">
+          <img class="footer__logo" src="./assets/logo.png" alt="F Coffee" />
+        </div>
+        <ul class="footer__nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">PRODUCTS</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="footer__contact">
+          <h2>CONTACT</h2>
+          <p>889 W Pender St #200, Vancouver, BC V6C 3B2</p>
+          Tel: 1-800-COFFEE
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright__copy">
+          &copy; 2024 F Coffee. All rights reserved.
+        </p>
+        <p class="footer__copyright__not-intended">
+          This is an educational project, any copyright infringement is not
+          intended, contact
+          <a
+            class="footer__copyright__not-intended"
+            href="mailto:contact@jpbm.dev"
+            >contact@jpbm.dev</a
+          >
+          for any questions.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
