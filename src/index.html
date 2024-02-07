@@ -14,11 +14,14 @@
     />
     <script src="./script.js" defer></script>
 
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
     <!-- JQuery Stuff -->
-    <link rel="stylesheet" href="./assets/styles/slick.css" />
-    <link rel="stylesheet" href="./assets/styles/slick-theme.css" />
-    <script src="./assets/scripts/jquery-3.7.1.min.js" defer></script>
-    <script src="./assets/scripts/slick.min.js" defer></script>
+    <link rel="stylesheet" href="./assets/scripts/slick.css" />
+    <link rel="stylesheet" href="./assets/scripts/slick-theme.css" />
+    <script src="./assets/scripts/jquery-3.7.1.min.js"></script>
+    <script src="./assets/scripts/slick.min.js"></script>
   </head>
   <body class="body">
     <section class="hero__background lasse2">
@@ -84,19 +87,357 @@
       </section>
       <section class="main__menu">
         <h2 class="main__menu__title">Our Menu</h2>
-        <div id="landing-menu-carrousel" class="main__menu__carousel">
-          <div>Lorem ipsum dolor sit amet.</div>
-          <div>At id voluptatem ipsam ullam.</div>
-          <div>Debitis doloremque sint error dicta.</div>
-          <div>Magni itaque inventore maiores deleniti.</div>
-          <div>Nemo, quisquam iste? Tempore, optio.</div>
-          <div>Ut, pariatur tempora? Accusamus, cumque.</div>
-          <div>Iste natus quaerat cupiditate atque.</div>
-          <div>Commodi doloremque magnam eaque aperiam.</div>
-          <div>Debitis magni commodi sed ducimus!</div>
-          <div>Nulla soluta corrupti sapiente itaque.</div>
+        <div id="landing-menu-carousel" class="main__menu__carousel">
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_cappuccino.webp"
+                alt="An image of a cappuccino"
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Cappuccino</h2>
+              <p class="main__menu__carousel__item__description">
+                A cappuccino is an espresso-based coffee drink that originated
+                in Italy, and is traditionally prepared with steamed milk foam.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_frappuccino.webp"
+                alt="An image of a frappuccino"
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Frappuccino</h2>
+              <p class="main__menu__carousel__item__description">
+                A frappuccino is a blended coffee drink that is made with
+                coffee, ice, and other ingredients, such as flavored syrups and
+                whipped cream.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_espresso.webp"
+                alt="An image of an espresso"
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Espresso</h2>
+              <p class="main__menu__carousel__item__description">
+                Espresso is a concentrated coffee drink that is made by forcing
+                pressurized hot water through finely-ground coffee beans.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_latte.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Latte</h2>
+              <p class="main__menu__carousel__item__description">
+                A latte is a coffee drink that is made with espresso and steamed
+                milk. It is similar to a cappuccino, but has more milk and less
+                foam.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_mocha.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Mocha</h2>
+              <p class="main__menu__carousel__item__description">
+                A mocha is a chocolate-flavored coffee drink that is made with
+                espresso, steamed milk, and chocolate syrup.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_macchiato.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Macchiato</h2>
+              <p class="main__menu__carousel__item__description">
+                A macchiato is a coffee drink that is made with espresso and a
+                small amount of milk.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_americano.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Americano</h2>
+              <p class="main__menu__carousel__item__description">
+                An americano is a coffee drink that is made with espresso and
+                hot water. It is similar to drip coffee, but has a stronger
+                flavor.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_flat-white.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Flat White</h2>
+              <p class="main__menu__carousel__item__description">
+                A flat white is a coffee drink that is made with espresso and
+                steamed milk. It is similar to a latte, but has less milk and
+                more foam.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_irish-coffee.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Irish Coffee</h2>
+              <p class="main__menu__carousel__item__description">
+                An irish coffee is a coffee drink that is made with hot coffee,
+                irish whiskey, and sugar, and is topped with whipped cream.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="main__menu__carousel__item">
+              <img
+                src="./assets/landing_turkish-coffee.webp"
+                alt=""
+                class="main__menu__carousel__item__image"
+              />
+              <h2 class="main__menu__carousel__item__title">Turkish Coffee</h2>
+              <p class="main__menu__carousel__item__description">
+                A turkish coffee is a coffee drink that is made by boiling
+                finely ground coffee beans in water, and is traditionally served
+                in a small cup.
+              </p>
+              <div class="main__menu__carousel__item__order-now">
+                <h2 class="main__menu__carousel__item__order-now__price">
+                  5.99$
+                </h2>
+                <button class="main__menu__carousel__item__order-now__button">
+                  ORDER NOW
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      <!-- <section class="main__ratings">
+        <h2 class="main__ratings__title">Our Menu</h2>
+        <div id="landing-menu-ratings" class="main__ratings__carousel">
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Cappuccino</h2>
+              <p class="main__ratings__carousel__item__description">
+                A cappuccino is an espresso-based coffee drink that originated
+                in Italy, and is traditionally prepared with steamed milk foam.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Frappuccino</h2>
+              <p class="main__ratings__carousel__item__description">
+                A frappuccino is a blended coffee drink that is made with
+                coffee, ice, and other ingredients, such as flavored syrups and
+                whipped cream.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Espresso</h2>
+              <p class="main__ratings__carousel__item__description">
+                Espresso is a concentrated coffee drink that is made by forcing
+                pressurized hot water through finely-ground coffee beans.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Latte</h2>
+              <p class="main__ratings__carousel__item__description">
+                A latte is a coffee drink that is made with espresso and steamed
+                milk. It is similar to a cappuccino, but has more milk and less
+                foam.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Mocha</h2>
+              <p class="main__ratings__carousel__item__description">
+                A mocha is a chocolate-flavored coffee drink that is made with
+                espresso, steamed milk, and chocolate syrup.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Macchiato</h2>
+              <p class="main__ratings__carousel__item__description">
+                A macchiato is a coffee drink that is made with espresso and a
+                small amount of milk. It is similar to a latte, but has less
+                milk and more foam.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Americano</h2>
+              <p class="main__ratings__carousel__item__description">
+                An americano is a coffee drink that is made with espresso and
+                hot water. It is similar to drip coffee, but has a stronger
+                flavor.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Flat White</h2>
+              <p class="main__ratings__carousel__item__description">
+                A flat white is a coffee drink that is made with espresso and
+                steamed milk. It is similar to a latte, but has less milk and
+                more foam.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">Irish Coffee</h2>
+              <p class="main__ratings__carousel__item__description">
+                An irish coffee is a coffee drink that is made with hot coffee,
+                irish whiskey, and sugar, and is topped with whipped cream.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+          <div>
+            <div class="main__ratings__carousel__item">
+              <img src="" alt="" class="main__ratings__carousel__item__image" />
+              <h2 class="main__ratings__carousel__item__title">
+                Turkish Coffee
+              </h2>
+              <p class="main__ratings__carousel__item__description">
+                A turkish coffee is a coffee drink that is made by boiling
+                finely ground coffee beans in water, and is traditionally served
+                in a small cup.
+              </p>
+              <div class="main__ratings__carousel__item__order-now"></div>
+            </div>
+          </div>
+        </div>
+      </section> -->
       <section class="main__maps">
         <div class="main__maps__iframe">
           <iframe
