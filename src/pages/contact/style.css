@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+/* heading section */
+.header {
+	background-color: #BA6E4E;
+	color: #fff;
+	text-align: center;
+    background: url("../../assets/contact/image.backgroundcoffeheader.png");
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 36px;
+    color : black;
+}
+
+.header p {
+	font-size: 20px;
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    color: black;
+    font-size: 20px; 
+    padding: 20px 5rem;
+    border: solid 1px black;
+    background: url(../../assets/contact/background_image.png) no-repeat center center;
+    opacity: 0.8;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column; 
+    color: #BA6E4E;
+    border: solid 1px red;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-width: 51%;
+    padding: 20px;
+	text-align: center;
+    border: solid 1px yellow;
+}
+
+.content h2 {
+	margin-bottom: 20px;
+    color: #BA6E4E;
+	font-size: 30px;
+    border: solid 1px blue;
+}
+
+.content label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 18px;
+    border: solid 1px green;
+}
+
+.content input[type="text"], .content input[type="email"], .content textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid #BA6E4E;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.content select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #BA6E4E;
+	border-radius: 5px;
+	font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.content input[type="submit"] {
+	background-color: #BA6E4E;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;    
+	font-size: 15px;
+}
+
+.footer {
+	background-color: #BA6E4E;
+	color: #fff;
+	padding: 10px;
+}
