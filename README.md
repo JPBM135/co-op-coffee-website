@@ -1,8 +1,26 @@
-# co-op-coffee-website
-Portfolio website of an coffee shop
+<span>
+  <img align="right" width="95" src="https://github.com/JPBM135/co-op-coffee-website/assets/67063134/7d8417cd-0e21-4d02-a3ba-088030ad9e48" alt="Coffee mug"></img>
+  <h1 align="left">Coffee Shop site made in Co-Op</h1>
+</span>
 
-        <a
-          href="https://www.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_8060692.htm#query=coffee&position=1&from_view=keyword&track=sph&uuid=769674cc-b59a-4dd4-8270-fae532ebc6c7"
-          >Image by 8photo</a
-        >
-        on Freepik
+## Authors
+
+- JPBM135 (https://github.com/JPBM135)
+- Matheusoli1998 (https://github.com/Matheusoli1998)
+- ViniciusBorgesCptbr (https://github.com/ViniciusBorgesCptbr)
+
+## Links 
+
+- Website hosted: https://co-op-coffee-website.vercel.app/
+- Figma inspiration file: https://www.figma.com/community/file/1290595899634077833
+
+## Pages
+
+| Page      | URL                                                      |
+|-----------|----------------------------------------------------------|
+| Landing   | https://co-op-coffee-website.vercel.app/                 |
+| Select    | https://co-op-coffee-website.vercel.app/pages/choose     |
+| Menu      | https://co-op-coffee-website.vercel.app/pages/menu       |
+| Locations | https://co-op-coffee-website.vercel.app/pages/locations  |
+| Contact   | https://co-op-coffee-website.vercel.app/contact          |
+| 404       | https://co-op-coffee-website.vercel.app/ops/i/dont/exist |
