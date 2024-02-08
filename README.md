@@ -16,11 +16,11 @@
 
 ## Pages
 
-| Page      | URL                                                      |
-|-----------|----------------------------------------------------------|
-| Landing   | https://co-op-coffee-website.vercel.app/                 |
-| Select    | https://co-op-coffee-website.vercel.app/pages/choose     |
-| Menu      | https://co-op-coffee-website.vercel.app/pages/menu       |
-| Locations | https://co-op-coffee-website.vercel.app/pages/locations  |
-| Contact   | https://co-op-coffee-website.vercel.app/pages/contact    |
-| 404       | https://co-op-coffee-website.vercel.app/ops/i/dont/exist |
+| Page      | URL                                                                |
+|-----------|--------------------------------------------------------------------|
+| Landing   | https://co-op-coffee-website.vercel.app/index.html                 |
+| Select    | https://co-op-coffee-website.vercel.app/pages/choose/index.html    |
+| Menu      | https://co-op-coffee-website.vercel.app/pages/menu/index.html      |
+| Locations | https://co-op-coffee-website.vercel.app/pages/locations/index.html |
+| Contact   | https://co-op-coffee-website.vercel.app/pages/contact/index.html   |
+| 404       | https://co-op-coffee-website.vercel.app/ops/i/dont/exist           |
