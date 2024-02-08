@@ -1,82 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="../../common.css">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../common.css">
+
 </head>
+
 <body>
-      <!--to be completed <nav></nav> -->
-	<div class="header">
-		<h1>F Coffe<span>STORE</span></h1>
-		<p>CONTACT</p>
-	</div>
-    <!-- aside store feedback contact and location -->
-   <div class="container">
-       <aside class="aside">
-        <h3> Store Feedback</h3>
-            <p>Tell us about an in-store experience, inquire about hiring opportunities, or ask about an order placed through our app.</p>
-        </h3>
-                <h3>CONTACT</h3>
-                <p>Phone: 1-800-555-5555</p>
-                <p>Email:
-            </p>
-        </h3>
-       </aside>
-        <!-- form next lines -->
-        <main class="content">
-            <form action="/en-us/docs/Web/HTTP/attributes/placeholder" method="post">
-            <h2>Contact US</h2>
-              
-                <input type="text" id="name" name="name" placeholder=" Name" required><br>
-               
-                <input type="email" id="email" name="email" placeholder="applecanada@gmail.com" required><br>
-               
-                <textarea id="message" name="message" rows="4" placeholder="Text here" cols="50"></textarea><br>
-              
-                <select id="subject" name="subject">
-                    <option value="in-store">In-Store Experience</option>
-                    <option value="hiring">Hiring Opportunities</option>
-                    <option value="order">Order Placed Through Our App</option>
-            </select><br>
-                <input type="submit" value="Send Us An Email">
-        </main>
-   </div>
-	 <!-- footer next lines -->
-	<footer class="footer">
-        <div class="footer__container">
-          <div class="utils__invert">
-            <img class="footer__logo" src="../../assets/logo.png" alt="F Coffee" />
-          </div>
-          <ul class="footer__nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-          <div class="footer__contact">
-            <h2>CONTACT</h2>
-            <p>889 W Pender St #200, Vancouver, BC V6C 3B2</p>
-            Tel: 1-800-COFFEE
-          </div>
-        </div>
-        <div class="footer__copyright">
-          <p class="footer__copyright__copy">
-            &copy; 2024 F Coffee. All rights reserved.
-          </p>
-          <p class="footer__copyright__not-intended">
-            This is an educational project, any copyright infringement is not
-            intended, contact
-            <a
-              class="footer__copyright__not-intended"
-              href="mailto:contact@jpbm.dev"
-              >contact@jpbm.dev</a
-            >
-            for any questions.
-          </p>
-        </div>
-      </footer>
+  <!--to be completed <nav></nav> -->
+  <header>
+    <nav>
+      <!-- LOGO -->
+      <a href="/"><img class="logo" src="../../assets/logo.png" alt="F Coofe Logo"></a>
+      <!-- Navigation Bar -->
+      <ul class="itensnav">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../choose/index.html">About</a></li>
+        <li><a href="../menu/index.html">Menu</a></li>
+        <li><a href="../products/index.html">Products</a></li>
+        <li><a id="contact-item" href="#">Location</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- aside store feedback contact and location -->
+  <div class="container">
+    <aside class="aside">
+      <h3> Store Feedback</h3>
+      <p>Tell us about an in-store experience, inquire about hiring opportunities, or ask about an order placed through
+        our app.</p>
+      </h3>
+      <h3>CONTACT</h3>
+      <p>Phone: 1-800-555-5555</p>
+      <p>Email: fcoffe@gmail.com</p>
+      </h3>
+      <h3>LOCATION</h3>
+      <p>889 W Pender St #200, Vancouver, BC V6C 3B2</p>
+    </aside>
+    <!-- form next lines -->
+    <main class="content">
+      <form action="/en-us/docs/Web/HTTP/attributes/placeholder" method="post">
+        <h2>Contact US</h2>
+
+        <input type="text" id="name" name="name" placeholder=" Name" required><br>
+
+        <input type="email" id="email" name="email" placeholder="applecanada@gmail.com" required><br>
+
+        <textarea id="message" name="message" rows="4" placeholder="Text here" cols="50"></textarea><br>
+
+        <select id="subject" name="subject">
+          <option value="in-store">In-Store Experience</option>
+          <option value="hiring">Hiring Opportunities</option>
+          <option value="order">Order Placed Through Our App</option>
+        </select><br>
+        <input type="submit" value="Send Us An Email">
+    </main>
+  </div>
+  <!-- footer next lines -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="utils__invert">
+        <img class="footer__logo" src="../../assets/logo.png" alt="F Coffee" />
+      </div>
+      <ul class="footer__nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="footer__contact">
+        <h2>CONTACT</h2>
+        <p>889 W Pender St #200, Vancouver, BC V6C 3B2</p>
+        Tel: 1-800-COFFEE
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <p class="footer__copyright__copy">
+        &copy; 2024 F Coffee. All rights reserved.
+      </p>
+      <p class="footer__copyright__not-intended">
+        This is an educational project, any copyright infringement is not
+        intended, contact
+        <a class="footer__copyright__not-intended" href="mailto:contact@jpbm.dev">contact@jpbm.dev</a>
+        for any questions.
+      </p>
+    </div>
+  </footer>
 </body>
+
 </html>
