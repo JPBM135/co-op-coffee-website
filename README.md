@@ -22,5 +22,5 @@
 | Select    | https://co-op-coffee-website.vercel.app/pages/choose     |
 | Menu      | https://co-op-coffee-website.vercel.app/pages/menu       |
 | Locations | https://co-op-coffee-website.vercel.app/pages/locations  |
-| Contact   | https://co-op-coffee-website.vercel.app/contact          |
+| Contact   | https://co-op-coffee-website.vercel.app/pages/contact    |
 | 404       | https://co-op-coffee-website.vercel.app/ops/i/dont/exist |
