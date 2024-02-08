@@ -6,9 +6,9 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
     prevArrow:
-      '<button type="button" class="slick-prev main__menu__carousel__button"><i class="ph ph-caret-circle-left"></i></button>',
+      '<button type="button" class="slick-prev main__menu__carousel__button" aria-label="Previous items"><i class="ph ph-caret-circle-left"></i></button>',
     nextArrow:
-      '<button type="button" class="slick-next main__menu__carousel__button"><i class="ph ph-caret-circle-right"></i></button>',
+      '<button type="button" class="slick-next main__menu__carousel__button" aria-label="Next items"><i class="ph ph-caret-circle-right"></i></button>',
     responsive: [
       {
         breakpoint: 1024,
