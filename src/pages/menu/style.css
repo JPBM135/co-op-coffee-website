@@ -41,7 +41,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-     list-style: none;
+    list-style: none;
 }
 
 nav a {
@@ -57,7 +57,7 @@ header .logo {
 
 .itensnav {
     display: flex;
-     gap: 4rem;
+    gap: 4rem;
     list-style-type: none;
     color: black;
 }
@@ -120,7 +120,7 @@ li .current {
     width: 100%;
     color: black;
     padding: 20px;
-   font-weight: 150;
+    font-weight: 150;
 }
 
 /* tittles */
